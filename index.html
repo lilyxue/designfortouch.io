@@ -94,7 +94,7 @@
 			<div class="schedule-ws ix">
 				<ul class="schedule-list">
 					<li>
-						<ul class="ws-tab">
+						<ul id="ws-tab" class="ws-tab">
 							<li><a href="###" class="tab-ix">设计工作坊</a></li>
 							<li><a href="###" class="tab-fe">前端分享</a></li>
 							<li><a href="###" class="tab-vd">视觉分享</a></li>
@@ -138,7 +138,7 @@
 							</p>
 						</div>
 						<div class="speaker">
-							<a href="###"><img src="images/speaker-liliyun.png" alt="李力耘" class="speaker-avatar" /></a>
+							<img src="images/speaker-liliyun.png" alt="李力耘" class="speaker-avatar" />
 							<h3 class="speaker-name">李力耘</h3>
 							<div class="speaker-title">打破研究和设计的界限——从设计研究到用户体验</div>
 							<p class="speaker-keynote">课程目标：<br />该工作坊的目标是“授之于渔”，通过讲座、互动讨论、案例演练等方式讲解用户研究的工作内容和方法、设计心理学的知识和应用、生活中的各种体验和背后的价值，助力产品的开发和设计。</p>
@@ -157,7 +157,7 @@
 							</p>
 						</div>
 						<div class="speaker">
-							<a href="###"><img src="images/speaker-avatar.png" alt="speaker" class="speaker-avatar" /></a>
+							<img src="images/speaker-avatar.png" alt="speaker" class="speaker-avatar" />
 							<h3 class="speaker-name">高闻嘉</h3>
 							<div class="speaker-title">主题待定</div>
 							<p class="speaker-keynote">工作坊内容待定</p>
@@ -308,7 +308,7 @@
 		</div>
 	</footer>
 <script>
-$(".ws-tab a").bind("click", function(){
+$("#ws-tab").bind("click", "a", function(){
 	var tab = $(this).attr("class").replace("tab-","");
 	$(".schedule-ws").removeClass("fe ix ur vd").addClass(tab);
 });
