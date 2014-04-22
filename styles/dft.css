@@ -123,6 +123,17 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.schedule .agenda, .speaker .speaker-name { line-height: 32px; font-size: 24px; }
 	.speaker .speaker-avatar { display: none; }
 	.speaker .speaker-title { font-size: 16px; }
+	.sponsors a { width: 96px; padding-top: 36px; background-size: 96px auto; }
+	.sponsors .sponsor-wxd { background-position: 0 0; }
+	.sponsors .sponsor-ued { background-position: 0 -40px; }
+	.sponsors .sponsor-xux { background-position: 0 -80px; }
+	.sponsors .sponsor-w3cplus { background-position: 0 -120px; }
+	.sponsors .sponsor-globalmoxie { background-position: 0 -160px; }
+	.sponsors .sponsor-iconfans { background-position: 0 -200px; }
+	.sponsors .sponsor-uiweek { background-position: 0 -240px; }
+	.sponsors .sponsor-uxpa { background-position: 0 -280px; }
+	.sponsors .sponsor-tang { background-position: 0 -320px; }
+	.sponsors .sponsor-mux { background-position: 0 -360px; }
 }
 @media (max-width: 320px) {
 	.schedule .agenda, .schedule .speaker { padding: 0 0 20px; }
