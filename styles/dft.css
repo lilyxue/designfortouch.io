@@ -54,7 +54,7 @@ header a { color: #fff; text-decoration: underline; }
 .speaker .speaker-title { padding-top: 15px; font-size: 20px; }
 .speaker .speaker-keynote { padding-top: 15px; line-height: 1.5; font-size: 14px; font-family: "Proxima Nova Regular","Helvetica Neue",Arial,Helvetica,sans-serif,'Microsoft Yahei'; color: rgba(0,0,0,0.4); }
 .ws-tab { padding: 100px 0; overflow: hidden; }
-.ws-tab:before { position: absolute; content: ""; top: 50%; width: 100%; height: 2px; margin-top: -1px; background: #e5e5ec; }
+.ws-tab:before { position: absolute; content: ""; top: 50%; width: 76%; height: 2px; margin-top: -1px; background: #e5e5ec; }
 .ws-tab li { position: relative; float: left; width: 33.3%; text-align: center; }
 .ws-tab a { display: inline-block; width: 180px; height: 60px; line-height: 60px; border-radius: 60px; background: #a5b4c6; font-size: 20px; color: #fff; text-align: center; }
 .schedule-ws.fe .tab-fe, .schedule-ws.ix .tab-ix, .schedule-ws.ur .tab-ur, .schedule-ws.vd .tab-vd { position: relative; background: #2a99dd; }
@@ -77,6 +77,7 @@ header a { color: #fff; text-decoration: underline; }
 .sponsors .sponsor-uxpa { background-position: 0 -560px; }
 .sponsors .sponsor-tang { background-position: 0 -640px; }
 .sponsors .sponsor-mux { background-position: 0 -720px; }
+.sponsors .sponsor-iconmoon { background-position: 0 -800px; }
 
 footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100; }
 .footer-contact { float: right; }
@@ -123,7 +124,7 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.schedule .agenda, .speaker .speaker-name { line-height: 32px; font-size: 24px; }
 	.speaker .speaker-avatar { display: none; }
 	.speaker .speaker-title { font-size: 16px; }
-	.sponsors a { width: 96px; padding-top: 36px; background-size: 96px auto; }
+	.sponsors a { width: 96px; margin: 0 10px; padding-top: 36px; background-size: 96px auto; }
 	.sponsors .sponsor-wxd { background-position: 0 0; }
 	.sponsors .sponsor-ued { background-position: 0 -40px; }
 	.sponsors .sponsor-xux { background-position: 0 -80px; }
@@ -134,6 +135,7 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.sponsors .sponsor-uxpa { background-position: 0 -280px; }
 	.sponsors .sponsor-tang { background-position: 0 -320px; }
 	.sponsors .sponsor-mux { background-position: 0 -360px; }
+	.sponsors .sponsor-iconmoon { background-position: 0 -400px; }
 }
 @media (max-width: 320px) {
 	.schedule .agenda, .schedule .speaker { padding: 0 0 20px; }
