@@ -58,7 +58,7 @@ header a { color: #fff; text-decoration: underline; }
 .ws-tab li { position: relative; float: left; width: 33.3%; text-align: center; }
 .ws-tab a { display: inline-block; width: 180px; height: 60px; line-height: 60px; border-radius: 60px; background: #a5b4c6; font-size: 20px; color: #fff; text-align: center; }
 .schedule-ws.fe .tab-fe, .schedule-ws.ix .tab-ix, .schedule-ws.ur .tab-ur, .schedule-ws.vd .tab-vd { position: relative; background: #2a99dd; }
-.schedule-ws.fe .tab-fe:after, .schedule-ws.ix .tab-ix:after, .schedule-ws.ur .tab-ur:after, .schedule-ws.vd .tab-vd:after { position: absolute; content: "♦"; left: 50%; bottom: -50%; margin-left: -8px; margin-bottom: 2px; font-size: 36px; color: #2a99dd; }
+.schedule-ws.fe .tab-fe:after, .schedule-ws.ix .tab-ix:after, .schedule-ws.ur .tab-ur:after, .schedule-ws.vd .tab-vd:after { position: absolute; content: "♦"; left: 50%; bottom: -50%; margin-left: -9px; margin-bottom: 2px; font-size: 36px; color: #2a99dd; }
 .ws-fe, .ws-ix, .ws-ur, .ws-vd { display: none; transition: all ease-in 100ms; }
 .schedule-ws.fe .ws-fe, .schedule-ws.ix .ws-ix, .schedule-ws.ur .ws-ur, .schedule-ws.vd .ws-vd { display: block; }
 .schedule-ws .tip { font-size: 16px; color: #f00; }
@@ -74,6 +74,9 @@ header a { color: #fff; text-decoration: underline; }
 .sponsors .sponsor-globalmoxie { background-position: 0 -320px; }
 .sponsors .sponsor-iconfans { background-position: 0 -400px; }
 .sponsors .sponsor-uiweek { background-position: 0 -480px; }
+.sponsors .sponsor-uxpa { background-position: 0 -560px; }
+.sponsors .sponsor-tang { background-position: 0 -640px; }
+.sponsors .sponsor-mux { background-position: 0 -720px; }
 
 footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100; }
 .footer-contact { float: right; }
@@ -128,4 +131,5 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.speaker .speaker-title { display: none; }
 	.ws-tab { padding: 40px 0; }
 	.ws-tab a { width: 64px; height: 40px; line-height: 40px; font-size: 12px; }
+	.schedule-ws.fe .tab-fe:after, .schedule-ws.ix .tab-ix:after, .schedule-ws.ur .tab-ur:after, .schedule-ws.vd .tab-vd:after { margin-left: -7px; font-size: 24px; }
 }
