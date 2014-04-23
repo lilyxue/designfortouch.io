@@ -80,7 +80,8 @@ header a { color: #fff; text-decoration: underline; }
 .sponsors .sponsor-uxpa { background-position: 0 -560px; }
 .sponsors .sponsor-tang { background-position: 0 -640px; }
 .sponsors .sponsor-mux { background-position: 0 -720px; }
-.sponsors .sponsor-iconmoon { background-position: 0 -800px; }
+.sponsors .sponsor-ctrip { background-position: 0 -800px; }
+.sponsors .sponsor-tieyou { background-position: 0 -880px; }
 
 footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100; }
 .footer-contact { float: right; }
@@ -120,7 +121,8 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.sponsors .sponsor-uxpa { background-position: 0 -280px; }
 	.sponsors .sponsor-tang { background-position: 0 -320px; }
 	.sponsors .sponsor-mux { background-position: 0 -360px; }
-	.sponsors .sponsor-iconmoon { background-position: 0 -400px; }
+	.sponsors .sponsor-ctrip { background-position: 0 -400px; }
+	.sponsors .sponsor-tieyou { background-position: 0 -440px; }
 }
 @media (max-width: 480px) {
 	.banner { background-image: none; }
