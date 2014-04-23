@@ -1,4 +1,4 @@
-/* DFT 2014.03.25 @llxue */
+/* DesignForTouch.io 14.04.23 @lilyxue */
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, th, td, em, form, input,select, textarea, button, header, nav, menu, section, aside, footer { margin: 0; padding: 0; }
 body { background: #fff; font-size: 24px; font-family: Helvetica, 'Lato', Calibri, Arial, sans-serif; -webkit-text-size-adjust: none; color: rgba(0,0,0,0.8); }
 html, body { height: 100%; }
@@ -75,7 +75,7 @@ header a { color: #fff; text-decoration: underline; }
 .sponsors .sponsor-xux { background-position: 0 -160px; }
 .sponsors .sponsor-w3cplus { background-position: 0 -240px; }
 .sponsors .sponsor-globalmoxie { background-position: 0 -320px; }
-.sponsors .sponsor-iconfans { background-position: 0 -400px; }
+.sponsors .sponsor-uicn { background-position: 0 -400px; }
 .sponsors .sponsor-uiweek { background-position: 0 -480px; }
 .sponsors .sponsor-uxpa { background-position: 0 -560px; }
 .sponsors .sponsor-tang { background-position: 0 -640px; }
@@ -115,7 +115,7 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.sponsors .sponsor-xux { background-position: 0 -80px; }
 	.sponsors .sponsor-w3cplus { background-position: 0 -120px; }
 	.sponsors .sponsor-globalmoxie { background-position: 0 -160px; }
-	.sponsors .sponsor-iconfans { background-position: 0 -200px; }
+	.sponsors .sponsor-uicn { background-position: 0 -200px; }
 	.sponsors .sponsor-uiweek { background-position: 0 -240px; }
 	.sponsors .sponsor-uxpa { background-position: 0 -280px; }
 	.sponsors .sponsor-tang { background-position: 0 -320px; }
