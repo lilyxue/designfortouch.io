@@ -163,4 +163,5 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.ws-ix .speaker, .ws-ix .speaker:nth-of-type(1) { float: left; width: 43%; padding: 0 0 70px; margin-top: 0; }
 	.ws-ix .speaker .speaker-avatar { float: none; margin-left: 0; margin-top: 0; }
 	.ws-ix .speaker:nth-of-type(2) .speaker-avatar { margin-top: -48px; }
+	.ws-ix .speaker .speaker-name { margin-top: 20px; }
 }
