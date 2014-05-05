@@ -11,10 +11,10 @@
 	<header>
 		<div class="wrap">
 			<div class="header-contact">
-				<a href="mailto:DFT@Ctrip.com" class="fa fa-envelope"></a>
-				<a href="http://weibo.com/DesignForTouch" class="fa fa-weibo" target="_blank"></a>
+				<a href="mailto:DFT@Ctrip.com" class="fa fa-envelope" title="邮件"></a>
+				<a href="http://weibo.com/DesignForTouch" class="fa fa-weibo" target="_blank" title="微博"></a>
 			</div>
-			<a href="###">售票即将开始</a>
+			<a href="http://piao.ctrip.com/dest/t1409898.html" target="_blank" class="fa fa-ticket"> 去抢票</a>
 		</div>
 	</header>
 	<div class="banner">
@@ -33,10 +33,10 @@
 					Design for Touch，指尖上的设计，由携程主办的无线用户体验大会，于2014年6月28日（周六）在上海龙之梦万丽酒店全天进行。大会邀请到用户体验、交互/视觉设计、前端等领域里的嘉宾来分享移动互联网行业里的经验。
 				</p>
 				<p>
-					大会上午为主题演讲，下午四场设计工作坊及前端、视觉主题分享在分会场同时段并列进行。全天票价150元，下午选择前端场将特别优惠为返还100元携程礼品卡。
+					大会上午为主题演讲，下午四场设计工作坊及前端、视觉主题分享在分会场同时段并列进行。全天票价150元，下午选择前端场将特别优惠为返还100元携程礼品卡。现在限量开放 Early Bird，全天100元，抢完恢复原价！
 				</p>
 			</div>
-			<div class="btn"><input type="button" value="售票即将开始" /></div>
+			<div class="link-ticket"><a href="http://piao.ctrip.com/dest/t1409898.html" target="_blank">去抢票</a></div>
 		</div>
 	</div>
 	<div class="schedule">
@@ -312,8 +312,8 @@
 	<footer>
 		<div class="wrap">
 			<div class="footer-contact">
-				<a href="mailto:DFT@Ctrip.com" class="fa fa-envelope"></a>
-				<a href="http://weibo.com/DesignForTouch" class="fa fa-weibo" target="_blank"></a>
+				<a href="mailto:DFT@Ctrip.com" class="fa fa-envelope" title="邮件"></a>
+				<a href="http://weibo.com/DesignForTouch" class="fa fa-weibo" target="_blank" title="微博"></a>
 			</div>
 			<p>&copy; 2014 Ctrip</p>
 		</div>
@@ -324,7 +324,6 @@ $("#ws-tab").bind("click", "a", function(e){
 	var tab = $(e.target).attr("class").replace("tab-","");
 	$(".schedule-ws").removeClass("fe ix ur vd").addClass(tab);
 });
-
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
