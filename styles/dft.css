@@ -138,6 +138,7 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.schedule .agenda, .speaker .speaker-name { line-height: 26px; font-size: 24px; }
 	.speaker .speaker-avatar { display: none; }
 	.speaker .speaker-title { font-size: 16px; }
+	.map { height: 200px; }
 }
 @media (max-width: 320px) {
 	.schedule .agenda, .schedule .speaker { padding: 0 0 20px; }
