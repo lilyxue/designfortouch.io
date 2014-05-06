@@ -11,7 +11,8 @@ $(function () {
   var bannerHeight = $('.banner').height();
   var header = $('header');
   $(window).on('scroll', function () {
-    if (document.body.scrollTop > bannerHeight) {
+    var scrollTop = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop > bannerHeight) {
       header.addClass('shown');
     } else {
       header.removeClass('shown');
