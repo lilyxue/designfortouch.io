@@ -9,9 +9,10 @@ input, select, textarea, button { -moz-appearance: none; -webkit-appearance: non
 
 .wrap { max-width: 960px; margin: 0 auto; padding: 0 8%; }
 
-header { position: fixed; left: 0; top: -60px; width: 100%; height: 60px; line-height: 60px; background: rgba(0,0,0,0.7); font-size: 18px; z-index: 99; transition: all ease-in 200ms; }
+header { position: fixed; left: 0; top: -60px; width: 100%; height: 60px; line-height: 60px; background: rgba(0,0,0,0.7); font-size: 18px; z-index: 99; transition: all ease 200ms; }
 header a { color: #fff; }
 header .fa:before { font-size: 24px; }
+header.shown { top: 0 }
 .header-contact { float: right; }
 .header-contact a { padding: 0 10px; }
 .banner { position: relative; width: 100%; height: 450px; background: #383838 url(../images/banner.png) center center no-repeat; background-size: contain;
