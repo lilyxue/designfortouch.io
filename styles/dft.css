@@ -47,9 +47,9 @@ header.shown { top: 0 }
 .schedule time { position: relative; float: left; margin-left: -80px; line-height: 32px; font-size: 16px; color: rgba(0,0,0,0.4); }
 .schedule time:after { position: absolute; content: ""; width: 22px; height: 22px; margin-left: 24px; border-radius: 50%; background: #2a99dd; border: 5px solid #5db6ed; }
 .schedule .agenda, .schedule .speaker { margin-left: 50px; color: rgba(0,0,0,0.75); }
-.schedule .agenda { padding-bottom: 70px; line-height: 32px; font-size: 30px; }
+.schedule .agenda { padding-bottom: 60px; line-height: 32px; font-size: 30px; }
 .schedule-list > li:last-child .agenda { padding-bottom: 0; }
-.schedule .speaker { padding: 0 0 70px 180px; }
+.schedule .speaker { padding: 0 0 60px 180px; }
 .schedule .speaker-avatar { display: inline-block; width: 130px; height: 130px; border-radius: 50%; transition: border-color ease-in 200ms; }
 .speaker .speaker-avatar { float: left; margin-left: -180px; }
 .speaker .speaker-name { font-size: 32px; font-weight: 300; }
@@ -149,7 +149,7 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.ws-ix .speaker, .ws-ix .speaker-avatar { margin-top: 0; }
 }
 @media (min-width: 1280px) {
-	.ws-ix .speaker, .ws-ix .speaker:nth-of-type(1) { float: left; width: 43%; padding: 0 0 70px; margin-top: 0; }
+	.ws-ix .speaker, .ws-ix .speaker:nth-of-type(1) { float: left; width: 43%; padding: 0 0 60px; margin-top: 0; }
 	.ws-ix .speaker .speaker-avatar { float: none; margin-left: 0; margin-top: 0; }
 	.ws-ix .speaker:nth-of-type(2) .speaker-avatar { margin-top: -48px; }
 	.ws-ix .speaker .speaker-name { margin-top: 20px; }
