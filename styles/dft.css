@@ -66,23 +66,23 @@ header.shown { top: 0 }
 .schedule-ws.fe .ws-fe, .schedule-ws.ix .ws-ix, .schedule-ws.ur .ws-ur, .schedule-ws.vd .ws-vd { display: block; }
 .schedule-ws .tip { font-size: 16px; color: #f00; }
 
-.map, .map-static { width: 100%; height: 400px; border-top: 2px solid #adadad; border-bottom: 2px solid #adadad; }
-.map-static { position: absolute; background: url(../images/zzz-map.png) center center no-repeat; background-size: auto 400px; }
+.map, .map-static { width: 100%; height: 320px; border-top: 2px solid #adadad; border-bottom: 2px solid #adadad; }
+.map-static { position: absolute; background: url(../images/zzz-map.png) center center no-repeat; background-size: auto 320px; }
 
 .sponsors { margin: 40px 0; overflow: hidden; }
-.sponsors a { float: left; width: 192px; height: 0; overflow: hidden; padding-top: 72px; background: url(../images/un-sponsors.png) no-repeat; text-align: center; }
+.sponsors a { float: left; width: 96px; height: 0; overflow: hidden; margin: 0 10px; padding-top: 36px; background: url(../images/un-sponsors.png) no-repeat; background-size: 96px auto; text-align: center; }
 .sponsors .sponsor-wxd { background-position: 0 0; }
-.sponsors .sponsor-ued { background-position: 0 -80px; }
-.sponsors .sponsor-xux { background-position: 0 -160px; }
-.sponsors .sponsor-w3cplus { background-position: 0 -240px; }
-.sponsors .sponsor-globalmoxie { background-position: 0 -320px; }
-.sponsors .sponsor-uicn { background-position: 0 -400px; }
-.sponsors .sponsor-uiweek { background-position: 0 -480px; }
-.sponsors .sponsor-uxpa { background-position: 0 -560px; }
-.sponsors .sponsor-tang { background-position: 0 -640px; }
-.sponsors .sponsor-mux { background-position: 0 -720px; }
-.sponsors .sponsor-ctrip { background-position: 0 -800px; }
-.sponsors .sponsor-tieyou { background-position: 0 -880px; }
+.sponsors .sponsor-ued { background-position: 0 -40px; }
+.sponsors .sponsor-xux { background-position: 0 -80px; }
+.sponsors .sponsor-w3cplus { background-position: 0 -120px; }
+.sponsors .sponsor-globalmoxie { background-position: 0 -160px; }
+.sponsors .sponsor-uicn { background-position: 0 -200px; }
+.sponsors .sponsor-uiweek { background-position: 0 -240px; }
+.sponsors .sponsor-uxpa { background-position: 0 -280px; }
+.sponsors .sponsor-tang { background-position: 0 -320px; }
+.sponsors .sponsor-mux { background-position: 0 -360px; }
+.sponsors .sponsor-ctrip { background-position: 0 -400px; }
+.sponsors .sponsor-tieyou { background-position: 0 -440px; }
 
 footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100; }
 .footer-contact { float: right; }
@@ -111,19 +111,6 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 @media (max-width: 600px) {
 	.ws-tab { padding: 40px 0; }
 	.ws-tab a { width: 80px; height: 40px; line-height: 40px; font-size: 14px; }
-	.sponsors a { width: 96px; margin: 0 10px; padding-top: 36px; background-size: 96px auto; }
-	.sponsors .sponsor-wxd { background-position: 0 0; }
-	.sponsors .sponsor-ued { background-position: 0 -40px; }
-	.sponsors .sponsor-xux { background-position: 0 -80px; }
-	.sponsors .sponsor-w3cplus { background-position: 0 -120px; }
-	.sponsors .sponsor-globalmoxie { background-position: 0 -160px; }
-	.sponsors .sponsor-uicn { background-position: 0 -200px; }
-	.sponsors .sponsor-uiweek { background-position: 0 -240px; }
-	.sponsors .sponsor-uxpa { background-position: 0 -280px; }
-	.sponsors .sponsor-tang { background-position: 0 -320px; }
-	.sponsors .sponsor-mux { background-position: 0 -360px; }
-	.sponsors .sponsor-ctrip { background-position: 0 -400px; }
-	.sponsors .sponsor-tieyou { background-position: 0 -440px; }
 }
 @media (max-width: 480px) {
 	.banner { background-image: none; }
@@ -139,8 +126,8 @@ footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100
 	.schedule .agenda, .speaker .speaker-name { line-height: 26px; font-size: 24px; }
 	.speaker .speaker-avatar { display: none; }
 	.speaker .speaker-title { font-size: 16px; }
-	.map, .map-static { height: 200px; }
-	.map-static { background-size: auto 200px; }
+	.map, .map-static { height: 160px; }
+	.map-static { background-size: auto 160px; }
 }
 @media (max-width: 320px) {
 	.schedule .agenda, .schedule .speaker { padding: 0 0 20px; }
