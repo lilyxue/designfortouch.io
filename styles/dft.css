@@ -83,6 +83,8 @@ header.shown { top: 0 }
 .sponsors .sponsor-mux { background-position: 0 -360px; }
 .sponsors .sponsor-ctrip { background-position: 0 -400px; }
 .sponsors .sponsor-tieyou { background-position: 0 -440px; }
+.sponsors .sponsor-turing { background-position: 0 -480px; }
+.sponsors .sponsor-hzbook { background-position: 0 -520px; }
 
 footer { padding: 60px 0; background: #f0f0f0; font-size: 16px; font-weight: 100; }
 .footer-contact { float: right; }
