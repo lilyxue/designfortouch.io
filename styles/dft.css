@@ -37,6 +37,7 @@ header.shown { top: 0 }
 .intro .intro-text p { padding: 10px 0; line-height: 1.5; font-size: 20px; font-weight: 100; }
 .intro .link-ticket { text-align: center; }
 .intro .link-ticket a { display: inline-block; margin-top: 1em; padding: .8em 2.4em; background: #ff6f0f; border-radius: 5px; font-size: 36px; color: #fff; }
+.intro .link-ticket .invalid { background: #aaa; font-size: 20px; cursor: text; }
 
 .schedule { padding: 60px 0; background: #f0f0f0; }
 .schedule-list { position: relative; }
